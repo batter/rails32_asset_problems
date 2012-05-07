@@ -13,3 +13,10 @@
 //= require jquery
 //= require jquery_ujs
 //= require_tree .
+
+
+// Here is some sample code I've added
+// When run in development, this function will get put into application.js, but so will an additional copy of Jquery
+function test_alert() {
+	alert('Hai!');
+}
